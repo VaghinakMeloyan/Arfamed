@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "arfamed"
+version = "0.1.0"
+description = ""
+authors = ["Vaghinak <meloyanvaghinak@gmail.com>"]
+license = "gpl"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
